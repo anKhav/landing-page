@@ -1,20 +1,8 @@
 @font-face {
-  font-family: "Objective Regular";
+  font-family: "Objective", sans-serif;
   font-style: normal;
   font-display: swap;
-  src: url("../../fonts/Objective_OTF/Objective-Regular.otf") format("otf");
-}
-@font-face {
-  font-family: "Objective Medium";
-  font-style: normal;
-  font-display: swap;
-  src: url("../../fonts/Objective_OTF/Objective-Medium.otf") format("otf");
-}
-@font-face {
-  font-family: "Objective Bold";
-  font-style: normal;
-  font-display: swap;
-  src: url("../../fonts/Objective_OTF/Objective-Bold.otf") format("otf");
+  src: url("../../fonts/Objective_OTF/Objective-Regular.otf");
 }
 //--VARIABLES--//
 //~~COLORS~~//
@@ -72,7 +60,8 @@ body{
   }
 }
 .logo {
-  font-family: "Objective Bold";
+  font-family: "Objective",sans-serif;
+  font-weight: 700;
   text-transform: uppercase;
   transition: all 0.3s;
   &:hover {
@@ -109,7 +98,7 @@ body{
   }
   .google-play,
   .apple-store {
-    font-family: "Objective Regular";
+    font-family: "Objective",sans-serif;
     .subtitle {
       margin-bottom: 5px;
     }
@@ -213,14 +202,16 @@ body{
     flex-basis: 65%;
   }
   &__title {
-    font-family: "Objective Medium";
+    font-family: "Objective",sans-serif;
+    font-weight: 500;
     font-size: 50px;
     line-height: 70px;
     letter-spacing: 0.02em;
     color: inherit;
   }
   &__text {
-    font-family: "Objective Regular";
+    font-family: "Objective",sans-serif;
+    font-weight: 400;
     font-size: 20px;
     line-height: 36px;
     color: inherit;
@@ -279,7 +270,8 @@ body{
   }
   &__link {
     color: inherit;
-    font-family: "Objective Regular";
+    font-family: "Objective",sans-serif;
+    font-weight: 400;
     font-size: 18px;
     line-height: 19px;
     transition: 0.3s;
@@ -336,7 +328,8 @@ body{
     }
   }
   &__title {
-    font-family: "Objective Medium";
+    font-family: "Objective",sans-serif;
+    font-weight: 500;
     font-size: 36px;
     line-height: 46px;
     color: $primary-color--dark;
@@ -422,7 +415,8 @@ body{
       }
     }
     &__title {
-      font-family: "Objective Medium";
+      font-family: "Objective",sans-serif;
+      font-weight: 500;
       font-size: 20px;
       line-height: 30px;
       letter-spacing: 0.02em;
@@ -432,12 +426,14 @@ body{
       }
     }
     &__description {
-      font-family: "Objective Regular";
+      font-family: "Objective",sans-serif;
+      font-weight: 400;
       font-size: 16px;
       line-height: 26px;
     }
     &__link {
-      font-family: "Objective Medium";
+      font-family: "Objective",sans-serif;
+      font-weight: 500;
       font-size: 14px;
       line-height: 30px;
       letter-spacing: 0.05em;
@@ -472,7 +468,8 @@ body{
   &__title {
     flex: 1 0 100%;
     text-align: center;
-    font-family: "Objective Bold";
+    font-family: "Objective",sans-serif;
+    font-weight: 700;
     font-size: 26px;
     line-height: 27px;
     color: $secondary-color--cold;
@@ -492,14 +489,16 @@ body{
       }
     }
     &__title {
-      font-family: "Objective Medium";
+      font-family: "Objective",sans-serif;
+      font-weight: 500;
       font-size: 18px;
       line-height: 19px;
       margin-bottom: 10px;
       margin-top: 33px;
     }
     &__description {
-      font-family: "Objective Regular";
+      font-family: "Objective",sans-serif;
+      font-weight: 400;
       font-size: 16px;
       line-height: 26px;
       text-align: center;
@@ -520,7 +519,8 @@ body{
   padding-left: 0;
   &__title {
     text-align: center;
-    font-family: "Objective Bold";
+    font-family: "Objective",sans-serif;
+    font-weight: 700;
     font-size: 26px;
     line-height: 27px;
     color: $primary-color--darker;
@@ -546,7 +546,7 @@ body{
         width: 80px;
         height: 80px;
         background: $primary-color--light;
-        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
         font-size: 48px;
         font-weight: bold;
         display: flex;
@@ -618,7 +618,8 @@ body{
       height: auto;
     }
     &__text {
-      font-family: "Objective Regular";
+      font-family: "Objective",sans-serif;
+      font-weight: 400;
       font-size: 16px;
       line-height: 24px;
       margin: 40px 0;
@@ -627,7 +628,8 @@ body{
       opacity: 0.5;
     }
     &__author {
-      font-family: "Objective Medium";
+      font-family: "Objective",sans-serif;
+      font-weight: 500;
       font-size: 18px;
       line-height: 19px;
       color: $primary-color--darker;
@@ -690,7 +692,8 @@ input:checked + .slide-container label {
     justify-content: center;
   }
   &__title {
-    font-family: "Objective Bold";
+    font-family: "Objective", sans-serif;
+    font-weight: 700;
     font-size: 25px;
     line-height: 26px;
     text-align: center;
@@ -698,7 +701,8 @@ input:checked + .slide-container label {
     margin-bottom: 15px;
   }
   &__text {
-    font-family: "Objective Regular";
+    font-family: "Objective",sans-serif;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
@@ -772,7 +776,8 @@ input:checked + .slide-container label {
   .list {
     flex: 1 1 20%;
     &__title {
-      font-family: "Objective Medium";
+      font-family: "Objective",sans-serif;
+      font-weight: 500;
       font-size: 18px;
       line-height: 19px;
       padding-bottom: 2px;
@@ -781,7 +786,7 @@ input:checked + .slide-container label {
     }
     &__link {
       color: inherit;
-      font-family: "Objective";
+      font-family: "Objective",sans-serif;
       font-weight: 400;
       font-size: 14px;
       line-height: 14px;
@@ -806,7 +811,8 @@ input:checked + .slide-container label {
     display: flex;
     flex-wrap: wrap;
     &__text {
-      font-family: "Objective Regular";
+      font-family: "Objective",sans-serif;
+      font-weight: 400;
       font-size: 18px;
       line-height: 26px;
       flex: 1 1 100%;
@@ -827,7 +833,8 @@ input:checked + .slide-container label {
       border-radius: 3px;
       outline: 2px solid transparent;
       &::placeholder {
-        font-family: "Objective Regular";
+        font-family: "Objective",sans-serif;
+        font-weight: 400;
         font-size: 14px;
         line-height: 14px;
       }
@@ -864,7 +871,8 @@ input:checked + .slide-container label {
     padding: 0 10px;
   }
   &__text {
-    font-family: "Objective Regular";
+    font-family: "Objective",sans-serif;
+    font-weight: 400;
     font-size: 10px;
     line-height: 11px;
     color: $primary-color--light;

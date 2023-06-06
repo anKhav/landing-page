@@ -1,20 +1,8 @@
 @font-face {
-  font-family: "Objective Regular";
+  font-family: "Objective", sans-serif;
   font-style: normal;
   font-display: swap;
-  src: url("../../fonts/Objective_OTF/Objective-Regular.otf") format("otf");
-}
-@font-face {
-  font-family: "Objective Medium";
-  font-style: normal;
-  font-display: swap;
-  src: url("../../fonts/Objective_OTF/Objective-Medium.otf") format("otf");
-}
-@font-face {
-  font-family: "Objective Bold";
-  font-style: normal;
-  font-display: swap;
-  src: url("../../fonts/Objective_OTF/Objective-Bold.otf") format("otf");
+  src: url("../../fonts/Objective_OTF/Objective-Regular.otf");
 }
 body {
   overflow-x: hidden;
@@ -43,7 +31,8 @@ body {
 }
 
 .logo {
-  font-family: "Objective Bold";
+  font-family: "Objective", sans-serif;
+  font-weight: 700;
   text-transform: uppercase;
   transition: all 0.3s;
 }
@@ -82,7 +71,7 @@ body {
 }
 .stores .google-play,
 .stores .apple-store {
-  font-family: "Objective Regular";
+  font-family: "Objective", sans-serif;
 }
 .stores .google-play .subtitle,
 .stores .apple-store .subtitle {
@@ -174,14 +163,16 @@ body {
   flex-basis: 65%;
 }
 .home__title {
-  font-family: "Objective Medium";
+  font-family: "Objective", sans-serif;
+  font-weight: 500;
   font-size: 50px;
   line-height: 70px;
   letter-spacing: 0.02em;
   color: inherit;
 }
 .home__text {
-  font-family: "Objective Regular";
+  font-family: "Objective", sans-serif;
+  font-weight: 400;
   font-size: 20px;
   line-height: 36px;
   color: inherit;
@@ -236,7 +227,8 @@ body {
 }
 .nav__link {
   color: inherit;
-  font-family: "Objective Regular";
+  font-family: "Objective", sans-serif;
+  font-weight: 400;
   font-size: 18px;
   line-height: 19px;
   transition: 0.3s;
@@ -283,7 +275,8 @@ body {
   right: -40px;
 }
 .services__title {
-  font-family: "Objective Medium";
+  font-family: "Objective", sans-serif;
+  font-weight: 500;
   font-size: 36px;
   line-height: 46px;
   color: #260041;
@@ -368,18 +361,21 @@ body {
   bottom: -15%;
 }
 .services .service__title {
-  font-family: "Objective Medium";
+  font-family: "Objective", sans-serif;
+  font-weight: 500;
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.02em;
 }
 .services .service__description {
-  font-family: "Objective Regular";
+  font-family: "Objective", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 26px;
 }
 .services .service__link {
-  font-family: "Objective Medium";
+  font-family: "Objective", sans-serif;
+  font-weight: 500;
   font-size: 14px;
   line-height: 30px;
   letter-spacing: 0.05em;
@@ -411,7 +407,8 @@ body {
 .how-works__title {
   flex: 1 0 100%;
   text-align: center;
-  font-family: "Objective Bold";
+  font-family: "Objective", sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 27px;
   color: #4a99d3;
@@ -428,14 +425,16 @@ body {
   color: #0f001a;
 }
 .how-works .step__title {
-  font-family: "Objective Medium";
+  font-family: "Objective", sans-serif;
+  font-weight: 500;
   font-size: 18px;
   line-height: 19px;
   margin-bottom: 10px;
   margin-top: 33px;
 }
 .how-works .step__description {
-  font-family: "Objective Regular";
+  font-family: "Objective", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
@@ -453,7 +452,8 @@ body {
 }
 .client__title {
   text-align: center;
-  font-family: "Objective Bold";
+  font-family: "Objective", sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 27px;
   color: #0f001a;
@@ -481,7 +481,7 @@ body {
   width: 80px;
   height: 80px;
   background: #ffffff;
-  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   font-size: 48px;
   font-weight: bold;
   display: flex;
@@ -552,7 +552,8 @@ body {
   height: auto;
 }
 .client .slide__text {
-  font-family: "Objective Regular";
+  font-family: "Objective", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   margin: 40px 0;
@@ -561,7 +562,8 @@ body {
   opacity: 0.5;
 }
 .client .slide__author {
-  font-family: "Objective Medium";
+  font-family: "Objective", sans-serif;
+  font-weight: 500;
   font-size: 18px;
   line-height: 19px;
   color: #0f001a;
@@ -623,7 +625,8 @@ input:checked + .slide-container label {
   justify-content: center;
 }
 .app__title {
-  font-family: "Objective Bold";
+  font-family: "Objective", sans-serif;
+  font-weight: 700;
   font-size: 25px;
   line-height: 26px;
   text-align: center;
@@ -631,7 +634,8 @@ input:checked + .slide-container label {
   margin-bottom: 15px;
 }
 .app__text {
-  font-family: "Objective Regular";
+  font-family: "Objective", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
@@ -702,7 +706,8 @@ input:checked + .slide-container label {
   flex: 1 1 20%;
 }
 .footer .list__title {
-  font-family: "Objective Medium";
+  font-family: "Objective", sans-serif;
+  font-weight: 500;
   font-size: 18px;
   line-height: 19px;
   padding-bottom: 2px;
@@ -711,7 +716,7 @@ input:checked + .slide-container label {
 }
 .footer .list__link {
   color: inherit;
-  font-family: "Objective";
+  font-family: "Objective", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
@@ -737,7 +742,8 @@ input:checked + .slide-container label {
   flex-wrap: wrap;
 }
 .footer .subscribe__text {
-  font-family: "Objective Regular";
+  font-family: "Objective", sans-serif;
+  font-weight: 400;
   font-size: 18px;
   line-height: 26px;
   flex: 1 1 100%;
@@ -759,12 +765,14 @@ input:checked + .slide-container label {
   outline: 2px solid transparent;
 }
 .footer .subscribe__input::-moz-placeholder {
-  font-family: "Objective Regular";
+  font-family: "Objective", sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 14px;
 }
 .footer .subscribe__input::placeholder {
-  font-family: "Objective Regular";
+  font-family: "Objective", sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 14px;
 }
@@ -800,7 +808,8 @@ input:checked + .slide-container label {
   padding: 0 10px;
 }
 .rights__text {
-  font-family: "Objective Regular";
+  font-family: "Objective", sans-serif;
+  font-weight: 400;
   font-size: 10px;
   line-height: 11px;
   color: #ffffff;
