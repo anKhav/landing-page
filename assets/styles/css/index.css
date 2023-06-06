@@ -2,19 +2,19 @@
   font-family: "Objective Regular";
   font-style: normal;
   font-display: swap;
-  src: url("../../fonts/Objective/Objective-Regular.woff2") format("woff2");
+  src: url("../../fonts/Objective_OTF/Objective-Regular.otf") format("otf");
 }
 @font-face {
   font-family: "Objective Medium";
   font-style: normal;
   font-display: swap;
-  src: url("../../fonts/Objective/Objective-Medium.woff2") format("woff2");
+  src: url("../../fonts/Objective_OTF/Objective-Medium.otf") format("otf");
 }
 @font-face {
   font-family: "Objective Bold";
   font-style: normal;
   font-display: swap;
-  src: url("../../fonts/Objective/Objective-Bold.woff2") format("woff2");
+  src: url("../../fonts/Objective_OTF/Objective-Bold.otf") format("otf");
 }
 body {
   overflow-x: hidden;
