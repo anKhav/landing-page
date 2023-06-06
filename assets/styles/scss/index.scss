@@ -46,6 +46,9 @@ $x-width:calc($hamburger-height * 1.41421);
 //--VARIABLES--//
 
 //--COMMON STYLES--//
+body{
+  overflow-x: hidden;
+}
 .hamburger-menu, .hamburger-menu__input{
   display: none;
 }
@@ -57,7 +60,6 @@ $x-width:calc($hamburger-height * 1.41421);
   height: 100%;
   margin: 0 auto;
   position: relative;
-  //z-index: 1000;
   z-index: 10;
   &--sm {
     @extend .section-inner;
@@ -160,11 +162,13 @@ $x-width:calc($hamburger-height * 1.41421);
 
 //--SECTION-1--//
 .home {
-  height: 100vh;
+  height: 100%;
+  min-height: 768px;
   position: relative;
   overflow: hidden;
   .section-inner--sm{
     z-index: 100;
+    height: 100%;
   }
   .stores {
     &__item {
@@ -194,6 +198,7 @@ $x-width:calc($hamburger-height * 1.41421);
   }
   &__wrapper {
     margin-top: 140px;
+    height: 100%;
   }
   &__container {
     display: flex;
@@ -982,7 +987,7 @@ input:checked + .slide-container label {
       flex-basis: 100%;
     }
     &__wrapper {
-      margin: 0;
+      margin-top: 100px;
       height: 100%;
       display: flex;
       align-items: center;

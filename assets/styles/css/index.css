@@ -16,6 +16,10 @@
   font-display: swap;
   src: url("../../fonts/Objective/Objective-Bold.woff2") format("woff2");
 }
+body {
+  overflow-x: hidden;
+}
+
 .hamburger-menu, .hamburger-menu__input {
   display: none;
 }
@@ -125,12 +129,14 @@
 }
 
 .home {
-  height: 100vh;
+  height: 100%;
+  min-height: 768px;
   position: relative;
   overflow: hidden;
 }
 .home .section-inner--sm {
   z-index: 100;
+  height: 100%;
 }
 .home .stores__item {
   background-color: #4a99d3;
@@ -153,6 +159,7 @@
 }
 .home__wrapper {
   margin-top: 140px;
+  height: 100%;
 }
 .home__container {
   display: flex;
@@ -900,7 +907,7 @@ input:checked + .slide-container label {
     flex-basis: 100%;
   }
   .home__wrapper {
-    margin: 0;
+    margin-top: 100px;
     height: 100%;
     display: flex;
     align-items: center;
